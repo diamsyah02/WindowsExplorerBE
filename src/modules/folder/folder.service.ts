@@ -1,4 +1,4 @@
-import type { Folder, IFolderService, IFolderRepository } from "./folder.type.js";
+import type { Folder, IFolderService, IFolderRepository } from "./folder.type.ts";
 
 export class FolderService implements IFolderService {
     private folderRepository: IFolderRepository;

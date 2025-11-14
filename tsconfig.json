@@ -13,8 +13,9 @@
     "isolatedModules": true,
     "sourceMap": true,
     "declaration": true,
-    "allowImportingTsExtensions": false,
     "allowSyntheticDefaultImports": true,
-    "emitDeclarationOnly": false,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "emitDeclarationOnly": true,
   }
 }

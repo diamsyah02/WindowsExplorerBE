@@ -1,7 +1,7 @@
 import { asc, eq, like } from "drizzle-orm";
-import { db } from "../../configs/db/index.js";
-import { foldersTable } from "../../configs/db/schema.js";
-import type { Folder, IFolderRepository } from "./folder.type.js";
+import { db } from "../../configs/db/index.ts";
+import { foldersTable } from "../../configs/db/schema.ts";
+import type { Folder, IFolderRepository } from "./folder.type.ts";
 
 export class FolderRepository implements IFolderRepository {
     async findAll(): Promise<Folder[]> {

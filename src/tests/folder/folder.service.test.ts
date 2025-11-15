@@ -1,6 +1,6 @@
 import { jest } from '@jest/globals';
-import { FolderService } from '../../modules/folder/folder.service.js'; 
-import type { IFolderRepository, Folder } from '../../modules/folder/folder.type.js'; 
+import { FolderService } from '../../modules/folder/folder.service'; 
+import type { IFolderRepository, Folder } from '../../modules/folder/folder.type'; 
 
 const mockFolders: Folder[] = [
     { id: 1, name: 'Root Docs', parent_id: null },

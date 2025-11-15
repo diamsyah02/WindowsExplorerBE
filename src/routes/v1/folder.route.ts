@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { FolderController } from '../../modules/folder/folder.controller.ts';
+import { FolderController } from '../../modules/folder/folder.controller';
 
 const folderController = new FolderController();
 

@@ -1,8 +1,8 @@
 import type { Request, Response } from 'express';
-import type { IFolderController } from './folder.type.ts';
-import { WebResponse } from '../../utils/response.ts';
-import { FolderService } from './folder.service.ts';
-import { FolderRepository } from './folder.repository.ts';
+import type { IFolderController } from './folder.type';
+import { WebResponse } from '../../utils/response';
+import { FolderService } from './folder.service';
+import { FolderRepository } from './folder.repository';
 
 const folderRepository = new FolderRepository();
 const folderService = new FolderService(folderRepository);

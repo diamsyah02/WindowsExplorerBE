@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import folderRoutes from './folder.route.ts';
+import folderRoutes from './folder.route';
 
 const router = Router();
 
